@@ -21,9 +21,9 @@ let package = Package(
             name: "PNCaptCha",
             dependencies: ["CloudFramework"]),
         .binaryTarget(
-            name: "CloudFramework",
-            url: "https://github.com/chau-phan94/captchaPOC/releases/download/v1.0.1/CloudFramework.xcframework.zip",
-            checksum: "ec24c70bef234604cc17566296c77e8be1a9bfafd55ae927fc57e005362ad356"
-        )
+          name: "CloudFramework",
+          url: "https://github.com/chau-phan94/captchaPOC/releases/download/v1.0.2/CloudFramework.xcframework.zip",
+            checksum: "561f511ea5b5ddffc11b3cd183360bee6aa7d224bc4c1b0e25bf1352d754779c"
+        ),
     ]
 )
