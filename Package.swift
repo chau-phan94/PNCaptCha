@@ -21,8 +21,9 @@ let package = Package(
             name: "PNCaptCha",
             dependencies: ["CloudFramework"],
             path: "Sources",
+            exclude: ["Private/", "Internal/"],
             publicHeadersPath: "Public"
-            ),
+        ),
         .binaryTarget(
           name: "CloudFramework",
           url: "https://github.com/chau-phan94/captchaPOC/releases/download/v1.0.2/CloudFramework.xcframework.zip",
