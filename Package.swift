@@ -19,7 +19,10 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "PNCaptCha",
-            dependencies: ["CloudFramework"]),
+            dependencies: ["CloudFramework"],
+            path: "Sources",
+            publicHeadersPath: "Public"
+            ),
         .binaryTarget(
           name: "CloudFramework",
           url: "https://github.com/chau-phan94/captchaPOC/releases/download/v1.0.2/CloudFramework.xcframework.zip",
